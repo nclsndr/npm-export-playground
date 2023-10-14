@@ -1,13 +1,13 @@
 {
   "name": "@nclsndr/npm-export-playground",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "DO NOT USE - Experimental package to test ESM resolution",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
-    "core": "./dist/core/index.js",
-    "utils": "./dist/utils/index.js",
-    "package.json": "./package.json"
+    "./core.js": "./dist/core/index.js",
+    "./utils.js": "./dist/utils/index.js",
+    "./package.json": "./package.json"
   },
   "scripts": {
     "build": "tsc --build"
